@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@300;400;500&display=swap');
+html, body {
+    background-color: black;
+    width: 100%;
+    height:100%;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Noto Serif', serif;
+font-family: 'Poppins', sans-serif;
+  }
+  * {
+    margin:0;
+}
+.container{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    flex-direction: column;
+}
+ .container img{
+     width: 6em;
+     height: 6em;
+     align-items: center;
+ }
+ .logo{
+     display: flex;
+     align-items: center;
+     font-size: 2em;
+     color: white;
+     font-weight: 300;
+    
+ }
+ .login-item{
+     display: flex;
+     justify-items: center;
+     color: white;
+     margin-top: 2em;
+     font-size: 1em;
+     margin-bottom: 1em;
+
+     
+ }
+ input{
+     margin-top: .5em;
+     border: 1px solid #d3ad7f;
+     background-color: black;
+     border-radius:5px;
+     color: white;
+     margin-bottom: 1em;
+     font-size: large;
+     height: 2em;
+     width: 18em;
+ }
+ input[type=submit]{
+     background-color: #d3ad7f;
+     color: black;
+     cursor: pointer;
+     height: 2em;
+     width: 18.5em;
+ }
+ .account-reg{
+     display: flex;
+     font-size: 15px;
+     justify-content: center;
+ }
+ .account-reg span a{
+     color: #d3ad7f;
+     cursor: pointer;
+ }
+
+ footer{
+     position: fixed;
+     bottom: 0;
+     height: 20px;
+     align-items: center;
+     color: white;
+     font-size: 15px;
+     padding-bottom: 1em;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ 
